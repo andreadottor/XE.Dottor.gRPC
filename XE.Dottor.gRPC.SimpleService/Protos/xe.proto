@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "XE.Dottor.gRPC.SimpleService";
+
+package XE;
+
+
+// The greeting service definition.
+service Events {
+  // Sends a greeting
+  rpc GetEvents (GetEventsRequest) returns (GetEventsReply);
+}
+
+message XeEventSession {
+  string title = 1;
+  string author = 2;
+}
+
+message XeEvent {
+  string date = 1;
+  string title = 2;
+  repeated XeEventSession sessions = 3;
+}
+
+// The request message containing the user's name.
+message GetEventsRequest {
+  string date = 1;
+}
+
+// The response message containing the greetings.
+message GetEventsReply {
+  repeated XeEvent events = 1;
+}
+

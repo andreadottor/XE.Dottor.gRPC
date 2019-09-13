@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.SimpleService", "XE.Dottor.gRPC.SimpleService\XE.Dottor.gRPC.SimpleService.csproj", "{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.SimpleService.Client", "XE.Dottor.gRPC.SimpleService.Client\XE.Dottor.gRPC.SimpleService.Client.csproj", "{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - gRPC Simple Service", "1 - gRPC Simple Service", "{BC558329-EF7E-4D32-B3BB-39CE54F42A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - gRPC Complex Service", "2 - gRPC Complex Service", "{56C8CC75-1B75-4757-9EB6-030DC212B63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC} = {BC558329-EF7E-4D32-B3BB-39CE54F42A38}
+		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D} = {BC558329-EF7E-4D32-B3BB-39CE54F42A38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ECD4210-CB0E-475C-9C3B-3B26595A3D0C}
+	EndGlobalSection
+EndGlobal
