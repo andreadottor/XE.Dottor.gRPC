@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.SimpleService", "XE.Dottor.gRPC.SimpleService\XE.Dottor.gRPC.SimpleService.csproj", "{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XE.Dottor.gRPC.SimpleService", "XE.Dottor.gRPC.SimpleService\XE.Dottor.gRPC.SimpleService.csproj", "{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.SimpleService.Client", "XE.Dottor.gRPC.SimpleService.Client\XE.Dottor.gRPC.SimpleService.Client.csproj", "{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XE.Dottor.gRPC.SimpleService.Client", "XE.Dottor.gRPC.SimpleService.Client\XE.Dottor.gRPC.SimpleService.Client.csproj", "{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - gRPC Simple Service", "1 - gRPC Simple Service", "{BC558329-EF7E-4D32-B3BB-39CE54F42A38}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - gRPC Complex Service", "2 - gRPC Complex Service", "{56C8CC75-1B75-4757-9EB6-030DC212B63F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.ComplexService", "XE.Dottor.gRPC.ComplexService\XE.Dottor.gRPC.ComplexService.csproj", "{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XE.Dottor.gRPC.ComplexService.Client", "XE.Dottor.gRPC.ComplexService.Client\XE.Dottor.gRPC.ComplexService.Client.csproj", "{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6F73F5B6-264F-44D1-A63B-7C84E1FFA4CC} = {BC558329-EF7E-4D32-B3BB-39CE54F42A38}
 		{9B9734FE-B449-40E5-B4AB-C4C201A7AA6D} = {BC558329-EF7E-4D32-B3BB-39CE54F42A38}
+		{7A7CFD6D-D606-4573-AF3A-9A1CA6D2DAC1} = {56C8CC75-1B75-4757-9EB6-030DC212B63F}
+		{7B359F36-CD0B-4B97-BA79-FAFE6BA5FB1A} = {56C8CC75-1B75-4757-9EB6-030DC212B63F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1ECD4210-CB0E-475C-9C3B-3B26595A3D0C}

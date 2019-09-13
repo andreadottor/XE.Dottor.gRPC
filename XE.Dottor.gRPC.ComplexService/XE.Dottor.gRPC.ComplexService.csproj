@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\lib\%2540aspnet\**" />
+    <Content Remove="wwwroot\lib\%2540aspnet\**" />
+    <EmbeddedResource Remove="wwwroot\lib\%2540aspnet\**" />
+    <None Remove="wwwroot\lib\%2540aspnet\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\chat.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="0.2.23-pre2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

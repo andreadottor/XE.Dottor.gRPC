@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "XE.Dottor.gRPC.ComplexService";
+
+package xe.complexService;
+
+message SendMessageRequest {
+    string from = 1;
+    string message = 2;
+}
+
+message SendMessageReply {
+    bool status = 1;
+}
+
+service Chat {
+    rpc SendMessage(stream SendMessageRequest) returns (stream SendMessageReply);
+}
