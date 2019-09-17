@@ -12,8 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\chat.proto" GrpcServices="Server" />
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\chat.v1.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>

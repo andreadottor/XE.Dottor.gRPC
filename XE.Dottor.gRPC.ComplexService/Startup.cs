@@ -46,7 +46,6 @@ namespace XE.Dottor.gRPC.ComplexService
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
                 endpoints.MapGrpcService<ChatService>();
 
                 endpoints.MapRazorPages();
