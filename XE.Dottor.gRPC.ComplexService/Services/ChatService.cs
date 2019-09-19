@@ -35,7 +35,7 @@ namespace XE.Dottor.gRPC.ComplexService.Services
                 try
                 {
                     await _hubContext.Clients.All.SendAsync("AddText", message.From, message.Message);
-                    response.Status = true;
+                    response.Status = UserHandler.ConnectedIds.Count > 0;
                 }
                 catch (Exception)
                 {
